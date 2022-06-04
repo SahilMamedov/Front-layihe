@@ -307,4 +307,35 @@ a:hover {
 .menu-menu-2 li {
   padding-bottom: 20px;
 }
+
+.home {
+  position: relative;
+}
+
+.home .sub-menu a {
+  padding: 6px 34px;
+  font-size: 13px;
+  background-color: white;
+}
+
+.home .sub-menu li {
+  width: 198px;
+  height: 32px;
+  padding: 0;
+}
+
+.home .sub-menu {
+  top: 60px;
+  padding: 30px 0;
+}
+
+.nav-icon {
+  margin-left: 15px;
+}
+
+.shop .sub-menu {
+  top: 255px;
+  width: 1952px;
+  padding: 0 391px;
+}
 /*# sourceMappingURL=main.css.map */
