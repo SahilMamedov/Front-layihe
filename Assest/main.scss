@@ -1,1 +1,36 @@
+#aside{
+    background-color: rgb(35, 58, 149);
+   
+    div{
+        
+        padding: 9px 0;
+        font-size: .75rem;
+        color: white;
+    }
+   
+}
+.nav-list li{
+    list-style: none;
+    margin-left: 15px;
+    font-size: 12px;
+   
+}
 
+.header-top{  
+    border-bottom: 1px solid rgb(227, 228, 230);
+}
+.column-right{
+    margin-left: 121px;
+    padding-left: 30px;
+}
+.column-right span{
+    font-size: 12px;
+}
+.text-content{
+    margin-left: 18px;
+    padding-left: 18px;
+    border-left: 1px solid #edeef5;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}

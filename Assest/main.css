@@ -1,1 +1,42 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+#aside {
+  background-color: #233a95;
+}
+
+#aside div {
+  padding: 9px 0;
+  font-size: .75rem;
+  color: white;
+}
+
+.nav-list li {
+  list-style: none;
+  margin-left: 15px;
+  font-size: 12px;
+}
+
+.header-top {
+  border-bottom: 1px solid #e3e4e6;
+}
+
+.column-right {
+  margin-left: 121px;
+  padding-left: 30px;
+}
+
+.column-right span {
+  font-size: 12px;
+}
+
+.text-content {
+  margin-left: 18px;
+  padding-left: 18px;
+  border-left: 1px solid #edeef5;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=main.css.map */
