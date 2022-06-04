@@ -141,7 +141,7 @@ a:hover {
 }
 
 .column-center {
-  padding-left: 60px;
+  padding-left: 55px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -199,10 +199,74 @@ a:hover {
 .header-login {
   width: 42px;
   height: 42px;
-}
-
-.header-buttons {
   border: 1px solid #edeef5;
   border-radius: 100%;
+  margin-top: 5px;
+}
+
+.button-icon {
+  position: relative;
+}
+
+.icon-user {
+  position: absolute;
+  left: 13px;
+  top: 13px;
+}
+
+.header-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 15px;
+}
+
+.basket {
+  height: 42px;
+}
+
+.cart-price {
+  margin-right: 15px;
+  padding-top: 15px;
+}
+
+.shop-icon {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #edeef5;
+  border-radius: 100%;
+  margin-top: 10px;
+  padding-top: 7px;
+  padding-left: 10px;
+  color: #ea2b0f;
+  background-color: #fff1ee;
+}
+
+.cart-count-icon {
+  height: 17px;
+  width: 17px;
+  background-color: #ea2b0f;
+  color: white;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 10px;
+  position: absolute;
+  right: -6px;
+  top: 10px;
+}
+
+.header-cart a {
+  position: relative;
 }
 /*# sourceMappingURL=main.css.map */
