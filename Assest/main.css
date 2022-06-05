@@ -480,4 +480,44 @@ body {
   margin-top: 25px;
   margin-bottom: 10px;
 }
+
+.counter-product {
+  padding: 15px 0;
+}
+
+.pdroduct {
+  border: 2px solid red;
+}
+
+.deals-header {
+  padding: 30px;
+  padding-bottom: 0;
+}
+
+.count-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 48px;
+  width: 48px;
+  color: white;
+  background-color: #ed174a;
+  border-radius: 5px;
+}
+
+.countdown span {
+  margin: 0 4px;
+}
+
+.deals-counter-text {
+  font-size: 12px;
+  color: #c2c2d3;
+  margin-top: 15px;
+}
 /*# sourceMappingURL=main.css.map */

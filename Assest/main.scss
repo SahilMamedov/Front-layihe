@@ -386,3 +386,31 @@ body{
     margin-top: 25px;
     margin-bottom: 10px;
 }
+.counter-product{
+    padding: 15px 0;
+}
+.pdroduct{
+    border: 2px solid red;
+}
+.deals-header{
+    padding: 30px;
+    padding-bottom: 0;
+}
+.count-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    color: white;
+    background-color: rgb(237, 23, 74);
+    border-radius: 5px;
+}
+.countdown span{
+margin: 0 4px;
+}
+.deals-counter-text{
+    font-size: 12px;
+    color: rgb(194, 194, 211);
+    margin-top: 15px;
+}
