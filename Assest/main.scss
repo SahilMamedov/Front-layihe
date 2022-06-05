@@ -216,7 +216,7 @@ top: 13px;
 .all-categories{
     margin-top: 9px;
 }
-.text{
+.all-categories span{
     margin-left: 15px;
 }
 .menu-menu-2{
@@ -224,9 +224,9 @@ margin-bottom: 0;
 }
 .menu-menu-2 li{
     list-style: none;
-    height: 60px;
+    //height: 60px;
 }
-.menu-menu-2 a{
+.list{
     padding: 0 18px;
     color: black;
     height: 40px;
@@ -261,7 +261,7 @@ padding-bottom: 20px;
 .home .sub-menu{
     top: 60px;
     padding: 30px 0;
-    // display: none;
+    display: none;
 }
 .nav-icon{
     margin-left: 15px;
@@ -270,6 +270,33 @@ padding-bottom: 20px;
 .shop .sub-menu{
     top: 255px;
     width: 1952px;
+    height: 270px;
     padding: 0 391px;
     
+}
+.sub-menu-lists{
+    padding-top: 8px;
+    padding-bottom: 30px;
+}
+
+.sub-menu-lists li{
+    padding: 0;
+    height: 32px;
+    
+}
+.shop li a{
+    color: #3e445a;
+    font-size: 13px;
+}
+.shop-title{
+    color: #233a95;
+    font-size: 15px;
+}
+.shop li a:hover{
+background-color: white;
+color: rgb(43, 190, 249);
+}
+.text{
+    padding: 6px 34px;
+    padding-left: 0;
 }
