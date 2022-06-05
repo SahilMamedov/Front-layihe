@@ -18,12 +18,18 @@
     list-style: none;
     margin-left: 15px;
     font-size: 12px;
-    color: black;
    
+}
+.header-top a{
+    color: black;
+}
+.header-top a:hover{
+    color: rgb(43, 190, 249);
 }
 
 .nav-list{
     margin: 7px;
+    
 }
 
 .header-top{  
@@ -123,6 +129,15 @@ text-decoration: none;
 .header-location span{
     font-size: 10px;
     color: rgba(92, 86, 86, 0.863);
+}
+.current-location{
+    width: 143px;
+}
+.location-icon{
+    font-size: 12px;
+    position: absolute;
+    left: 155px;
+    top: 25px;
 }
 .header-location a{
     border: 1px solid #d9d9e9;

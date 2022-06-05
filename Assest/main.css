@@ -19,7 +19,14 @@
   list-style: none;
   margin-left: 15px;
   font-size: 12px;
+}
+
+.header-top a {
   color: black;
+}
+
+.header-top a:hover {
+  color: #2bbef9;
 }
 
 .nav-list {
@@ -146,6 +153,17 @@ a:hover {
 .header-location span {
   font-size: 10px;
   color: rgba(92, 86, 86, 0.863);
+}
+
+.current-location {
+  width: 143px;
+}
+
+.location-icon {
+  font-size: 12px;
+  position: absolute;
+  left: 155px;
+  top: 25px;
 }
 
 .header-location a {
