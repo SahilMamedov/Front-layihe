@@ -56,7 +56,7 @@
     padding: 15px 0;
     top: 25px;
     left: -32px;
-    // display: none;
+    display: none;
 }
 .eng a:hover {
 
@@ -214,7 +214,16 @@ top: 13px;
     position: relative;
 }
 .all-categories{
-    margin-top: 9px;
+    margin-top: 25px;
+    margin-right: 140px;
+    width: 213px;
+}
+.all-categories a{
+    background-color: rgb(43, 190, 249);
+    
+    height: 50px;
+    color: white;
+    border-radius: 30px;
 }
 .all-categories span{
     margin-left: 15px;
@@ -227,7 +236,7 @@ margin-bottom: 0;
     //height: 60px;
 }
 .list{
-    padding: 0 18px;
+    padding: 0 14px;
     color: black;
     height: 40px;
     display: flex;
@@ -272,7 +281,10 @@ padding-bottom: 20px;
     width: 1952px;
     height: 270px;
     padding: 0 391px;
-    
+}
+.shop-menu{
+    display: flex;
+display: none;
 }
 .sub-menu-lists{
     padding-top: 8px;

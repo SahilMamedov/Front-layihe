@@ -63,6 +63,7 @@
   padding: 15px 0;
   top: 25px;
   left: -32px;
+  display: none;
 }
 
 .eng a:hover .sub-menu {
@@ -266,7 +267,16 @@ a:hover {
 }
 
 .all-categories {
-  margin-top: 9px;
+  margin-top: 25px;
+  margin-right: 140px;
+  width: 213px;
+}
+
+.all-categories a {
+  background-color: #2bbef9;
+  height: 50px;
+  color: white;
+  border-radius: 30px;
 }
 
 .all-categories span {
@@ -282,7 +292,7 @@ a:hover {
 }
 
 .list {
-  padding: 0 18px;
+  padding: 0 14px;
   color: black;
   height: 40px;
   display: -webkit-box;
@@ -338,6 +348,13 @@ a:hover {
   width: 1952px;
   height: 270px;
   padding: 0 391px;
+}
+
+.shop-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: none;
 }
 
 .sub-menu-lists {
