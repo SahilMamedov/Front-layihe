@@ -416,7 +416,15 @@ body {
 }
 
 .category {
+  width: 216px;
+  height: 147px;
   padding: 20px;
+  border: 1px solid #e3e4e6;
+}
+
+.frist-category {
+  padding: 20px;
+  border: 1px solid #e3e4e6;
 }
 
 .categories-wrapper img {
@@ -431,5 +439,45 @@ body {
 
 .category-count {
   font-size: .75rem;
+}
+
+.categories-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.entry-category {
+  line-height: 0.6;
+}
+
+.entry-category a {
+  width: auto;
+  height: auto;
+}
+
+.frist-category .category-detail .category-count {
+  margin-left: 70px;
+}
+
+.frist-category .category-detail h3 {
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.frist-category .category-detail h3 a {
+  color: #202435;
+}
+
+#main {
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=main.css.map */
