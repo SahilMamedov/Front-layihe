@@ -327,3 +327,28 @@ color: rgb(43, 190, 249);
     padding: 6px 34px;
     padding-left: 0;
 }
+.slider{
+    width: 1903px;
+    height: 575px;
+    background-color: aquamarine;
+}
+body{
+    height: 1600px;
+}
+// .frist{
+//     border:1px solid rgb(227, 228, 230);
+// }
+.category{
+    padding: 20px
+}
+.categories-wrapper img{
+    height: 70px;
+    width: 70px;
+}
+.category a{
+    font-size: .875rem;
+    color: #202435;
+}
+.category-count{
+    font-size: .75rem;
+}
