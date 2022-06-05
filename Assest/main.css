@@ -488,6 +488,7 @@ body {
 .pdroduct {
   border: 2px solid red;
   width: 390px;
+  border-radius: 7px;
 }
 
 .deals-header {
@@ -549,5 +550,86 @@ body {
 
 .thumbnail-wrapper img {
   width: 350px;
+}
+
+.content-wrapper {
+  padding: 30px;
+  padding-top: 0;
+}
+
+.amount {
+  color: #c2c2d3;
+  font-size: 21px;
+}
+
+.price-amount {
+  font-size: 24px;
+  color: #d51243;
+  font-weight: 500;
+}
+
+.product-title a {
+  font-size: 18px;
+}
+
+a {
+  color: #202435;
+}
+
+.product-title {
+  margin-bottom: 10px;
+}
+
+.product-unit {
+  color: #9b9bb4;
+  font-size: 11px;
+}
+
+.product-available {
+  color: #00b853;
+  font-size: 11px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.product-meta {
+  margin-bottom: 10px;
+}
+
+.star-rating i {
+  font-size: 11px;
+  color: #f7df5c;
+}
+
+.product-pcs {
+  margin-bottom: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  color: #c2c2d3;
+}
+
+.product-pcs span {
+  color: black;
+  font-weight: 600;
+  padding-left: 3px;
+}
+
+.progress {
+  width: 89%;
+  height: 10px;
+  background: -webkit-gradient(linear, left top, right top, from(#d51243), color-stop(50%, #ff6048), to(#ffcd00));
+  background: linear-gradient(90deg, #d51243 0%, #ff6048 50%, #ffcd00 100%);
+}
+
+.product-progress {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #d9e7e096;
 }
 /*# sourceMappingURL=main.css.map */
