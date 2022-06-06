@@ -64,17 +64,24 @@
 }
 
 .sub-menu {
-  z-index: 1;
+  z-index: 100;
   position: absolute;
   border: 1px solid #edeef5;
   padding: 15px 0;
   top: 25px;
   left: -32px;
   display: none;
+  background-color: white;
 }
 
 .eng a:hover .sub-menu {
-  background-color: #233a95;
+  display: block;
+  color: black;
+}
+
+.usd a:hover .sub-menu {
+  display: block;
+  color: black;
 }
 
 .eng {
@@ -411,10 +418,6 @@ a:hover {
   background-color: aquamarine;
 }
 
-body {
-  height: 1600px;
-}
-
 .category {
   width: 216px;
   height: 147px;
@@ -631,5 +634,129 @@ a {
   width: 100%;
   border-radius: 5px;
   background-color: #d9e7e096;
+}
+
+.element-wrapper {
+  padding: 15px;
+  padding-right: 0;
+}
+
+.thumbnail-item {
+  padding: 20px;
+  position: relative;
+}
+
+.onsale {
+  padding: 6px 12px;
+  border-radius: 5px;
+  color: white;
+  background-color: #2bbef9;
+}
+
+.recommend {
+  padding: 6px 12px;
+  background-color: #71778e;
+  color: white;
+  border-radius: 5px;
+  line-height: 4;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.organic {
+  padding: 6px 12px;
+  background-color: #e5f8ed;
+  color: #038e42;
+  border-radius: 5px;
+  line-height: 4;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.product-item {
+  border: 1px solid #e3e4e6;
+  width: 240px;
+}
+
+.thumbnail-item img {
+  height: 187px;
+  z-index: 10;
+  width: 209px;
+}
+
+.product-badges {
+  position: absolute;
+}
+
+.img-1 {
+  padding: 8px;
+}
+
+.content-item {
+  padding: 20px;
+  padding-top: 0;
+}
+
+.content-item a {
+  font-size: 14px;
+}
+
+.content-item h3 {
+  line-height: 0.8;
+}
+
+.element-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body {
+  height: 2600px;
+}
+
+.element-papulated {
+  padding: 15px;
+}
+
+.banner-content {
+  padding: 30px 40px;
+  position: absolute;
+}
+
+.content-header {
+  margin-bottom: 10PX;
+}
+
+.content-header div {
+  color: #ff6048;
+  font-size: 16px;
+  letter-spacing: -0.1px;
+}
+
+.content-main h3 {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: #3e445a;
+  font-weight: 650;
+}
+
+.entry-text {
+  font-size: 12px;
+  font-weight: 400px;
+}
+
+.button-shop {
+  background-color: #233a95;
+  color: white;
+  padding: 10px 22px;
+  margin-top: 20px;
+  border-radius: 1.875rem;
+}
+
+.banner-thumbnail img {
+  border-radius: 6px;
 }
 /*# sourceMappingURL=main.css.map */

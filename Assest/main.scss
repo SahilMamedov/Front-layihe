@@ -56,23 +56,37 @@
 }
 .sub-menu{
     
-    z-index: 1;
+    z-index: 100;
     position: absolute;
     border: 1px solid #edeef5;
     padding: 15px 0;
     top: 25px;
     left: -32px;
     display: none;
+    background-color: white;
 }
-.eng a:hover {
+ .eng a:hover {
+
 
     .sub-menu{
-        background-color: #233a95;
+        display: block;
+        color: black;
     }
-    
+   
+}
+.usd a:hover {
+
+
+    .sub-menu{
+        display: block;
+        color: black;
+        
+        
+    }
     
    
 }
+
 .eng{
     position: relative;
     list-style: none;
@@ -332,9 +346,7 @@ color: rgb(43, 190, 249);
     height: 575px;
     background-color: aquamarine;
 }
-body{
-    height: 1600px;
-}
+
 
 .category {
     width: 216px;
@@ -499,4 +511,108 @@ color: rgb(247, 223, 92);
     width: 100%;
     border-radius: 5px;
     background-color: #d9e7e096;
+}
+.element-wrapper{
+    padding: 15px;
+    padding-right: 0;
+}
+.thumbnail-item{
+    padding: 20px;
+    
+    position: relative;
+}
+.onsale{
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(43, 190, 249);
+}
+.recommend{
+    padding: 6px 12px;
+    background-color: rgb(113, 119, 142);
+    color: white;
+    border-radius: 5px;
+    line-height: 4;
+    font-size: 10px;
+    font-weight: 700;
+}
+.organic{
+    padding: 6px 12px;
+    background-color: rgb(229, 248, 237);
+    color: rgb(3, 142, 66);
+    border-radius: 5px;
+    line-height: 4;
+    font-size: 10px;
+    font-weight: 700;
+}
+.product-item{
+    border:1px solid rgb(227, 228, 230);
+    width: 240px;
+}
+.thumbnail-item img{
+    height: 187px;
+    z-index: 10;
+    width: 209px;
+}
+.product-badges{position: absolute;
+
+}
+
+.img-1{
+    padding: 8px;
+}
+.content-item{
+    padding: 20px;
+    padding-top: 0;
+    
+}
+.content-item a{
+
+    font-size: 14px;
+}
+.content-item h3{
+line-height: 0.8;
+}
+.element-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    height: 2600px;
+}
+.element-papulated{
+    padding: 15px
+}
+.banner-content{
+    padding: 30px 40px;
+    position: absolute;
+}
+.content-header{
+    margin-bottom: 10PX;
+}
+.content-header div{
+    color: rgb(255, 96, 72);
+    font-size: 16px;
+    letter-spacing: -0.1px
+}
+.content-main h3{
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: rgb(62, 68, 90);
+    font-weight: 650;
+}
+.entry-text{
+    font-size: 12px;
+    font-weight: 400px;
+}
+.button-shop{
+    background-color: rgb(35, 58, 149);
+    color: white;
+    padding: 10px 22px;
+    margin-top: 20px;
+    border-radius: 1.875rem;
+}
+.banner-thumbnail img{
+    border-radius: 6px;
 }
