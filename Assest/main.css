@@ -814,4 +814,30 @@ body {
   margin-bottom: 30px;
   margin-left: 10px;
 }
+
+section {
+  margin: 10px 0;
+}
+
+.simple-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 64px;
+  background-color: #fbeacf;
+}
+
+.simple-text a {
+  padding: 20px 15px;
+  letter-spacing: 4px;
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+}
 /*# sourceMappingURL=main.css.map */
