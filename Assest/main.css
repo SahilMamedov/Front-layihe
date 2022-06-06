@@ -759,4 +759,31 @@ body {
 .banner-thumbnail img {
   border-radius: 6px;
 }
+
+.heart-icon {
+  position: absolute;
+  right: 10px;
+}
+
+.heart-icon i {
+  font-size: 24px;
+  background-color: white;
+  color: #202435;
+  margin-bottom: 10px;
+  opacity: 0;
+}
+
+.element-populated {
+  padding: 15px;
+}
+
+.module-header {
+  margin-bottom: 30px;
+}
+
+.entry-description {
+  color: #9b9bb4;
+  line-height: 0.4;
+  font-size: .75rem;
+}
 /*# sourceMappingURL=main.css.map */
