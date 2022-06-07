@@ -831,6 +831,7 @@ section {
           justify-content: center;
   height: 64px;
   background-color: #fbeacf;
+  border-radius: 6px;
 }
 
 .simple-text a {
@@ -839,5 +840,17 @@ section {
   font-size: 16px;
   color: black;
   font-weight: 700;
+}
+
+.products-column-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.products-column-5 .product-item {
+  width: 228px;
 }
 /*# sourceMappingURL=main.css.map */

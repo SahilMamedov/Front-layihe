@@ -678,7 +678,9 @@ section{
     align-items: center;
     justify-content: center;
     height: 64px;
-    background-color: rgb(251, 234, 207)
+    background-color: rgb(251, 234, 207);
+    border-radius: 6px;
+    
 }
 .simple-text a{
     padding: 20px 15px;
@@ -686,4 +688,11 @@ section{
     font-size: 16px;
     color: black;
     font-weight: 700;
+}
+.products-column-5{
+    display: flex;
+    flex-wrap: wrap;
+}
+.products-column-5 .product-item{
+    width: 228px;
 }
