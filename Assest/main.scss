@@ -857,10 +857,25 @@ body{
     opacity: .5;
     font-size: 12px;
 }
-.fb-icon a{
+li{
+    list-style: none;
+}
+
+.site-social{
+    margin-left: 20px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 32px;
     height: 32px;
+    border: 1px solid rgb(217, 217, 233);
+    border-radius: 100%;
 }
-.site-social{
-    margin-left: 40px;
+.call{
+    width: 45%;
+}
+.social{
+    width: 55%;
 }
