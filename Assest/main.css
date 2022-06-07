@@ -1206,12 +1206,6 @@ li {
 }
 
 .select-location-active {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   display: none;
 }
 /*# sourceMappingURL=main.css.map */
