@@ -578,9 +578,7 @@ line-height: 0.8;
     flex-wrap: wrap;
 }
 
-body{
-    height: 4600px;
-}
+
 .element-papulated{
     padding: 15px
 }
@@ -729,4 +727,60 @@ section{
     color: rgb(32, 36, 53);
     font-weight: 500;
     margin-right: 10px;
+}
+#footer{
+    margin-top: 115px;
+}
+.footer-subscribe{
+    background-color: rgb(35, 58, 149)
+}
+.subscribe-content{
+    padding: 70px 0;
+}
+.subscribe-content h6{
+    color: #e4e5ee;
+    font-weight: 300;
+}
+.entry-teaser p{
+    color: #e4e5ee;
+    opacity: .5;
+}
+.entry-teaser{
+    margin-bottom: 30px;
+}
+.subscripe-input{
+    width: 468px;
+    height: 63px;
+    padding-left: 50px;
+    padding-right: 15px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+}
+.form-fields i{
+    position: absolute;
+    top: 24px;
+    left: 20px;
+}
+.subscribe-submit{
+    position: absolute;
+    right: -18px;
+    top: 5px;
+    padding: 0 20px;
+    width: 102px;
+    height: 54px;
+    background-color: rgb(35, 58, 149);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.subscribe-image{
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    height: 5600px;
 }
