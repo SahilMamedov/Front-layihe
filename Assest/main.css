@@ -74,12 +74,12 @@
   background-color: white;
 }
 
-.eng a:hover .sub-menu {
+.eng:hover .sub-menu {
   display: block;
   color: black;
 }
 
-.usd a:hover .sub-menu {
+.usd:hover .sub-menu {
   display: block;
   color: black;
 }
@@ -93,6 +93,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 5px;
 }
 
 .header-main {
@@ -124,6 +125,7 @@
 .usd {
   margin-left: 15px;
   position: relative;
+  padding-bottom: 5px;
 }
 
 a:hover {
@@ -361,7 +363,10 @@ a:hover {
 .home .sub-menu {
   top: 60px;
   padding: 30px 0;
-  display: none;
+}
+
+.home:hover .sub-menu {
+  display: block;
 }
 
 .nav-icon {
@@ -376,10 +381,14 @@ a:hover {
 }
 
 .shop-menu {
+  display: none;
+}
+
+.shop:hover .shop-menu {
+  display: block;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  display: none;
 }
 
 .sub-menu-lists {
@@ -958,7 +967,7 @@ section {
 }
 
 body {
-  height: 5600px;
+  height: 6500px;
 }
 
 .footer-iconboxes {
@@ -1105,5 +1114,76 @@ li {
 
 .footer-site-menu li {
   margin-left: 10px;
+}
+
+.select-location-wrapper {
+  padding: 30px;
+}
+
+.search-location {
+  margin-top: 20px;
+}
+
+.entry-descriptionn {
+  font-size: .75rem;
+  opacity: .7;
+  color: #202435;
+}
+
+.select-search {
+  position: relative;
+}
+
+.select-search input {
+  padding-left: 46px;
+  padding-right: 15px;
+  border: none;
+  width: 360px;
+  height: 48px;
+  background-color: #f3f4f7;
+  border-radius: 5px;
+}
+
+.select-search i {
+  position: absolute;
+  left: 13px;
+  top: 3px;
+  font-size: 20px;
+}
+
+.close-popup i {
+  position: absolute;
+  right: -12px;
+  top: -49px;
+  font-size: 20px;
+}
+
+.select-location-wrapper {
+  width: 420px;
+  height: 523px;
+}
+
+.elect-results {
+  margin-top: 20px;
+}
+
+.select-list li {
+  padding: 12px 6px;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.min-price {
+  padding: 3px 10px;
+  margin-right: 10px;
+  border-radius: 1.875rem;
+  border: 1px solid #e2e2ec;
+  color: #9b9bb4;
+  font-size: 10px;
 }
 /*# sourceMappingURL=main.css.map */
