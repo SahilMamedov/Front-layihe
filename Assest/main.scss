@@ -696,5 +696,37 @@ section{
 .products-column-5 .product-item{
     width: 228px;
 }
-.shop-now{
+.entry-category a{
+    color: rgb(155, 155, 180);
+    font-size: 13px;
+}
+.entry-title a{
+    color: rgb(32, 36, 53);
+    font-size: 20px;
+    font-weight: 650;
+    line-height: 0.1;
+}
+.entry-title{
+    margin-bottom: 8px;
+    line-height: 0.7;
+}
+.meta-separator{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(113, 119, 142);
+    
+}
+.meta-separator span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.meta-item a{
+    color: rgb(113, 119, 142);
+    font-size: 14px;
+    margin-right: 10px;
+}
+.entry-comments a{
+    color: rgb(32, 36, 53);
+    font-weight: 500;
+    margin-right: 10px;
 }

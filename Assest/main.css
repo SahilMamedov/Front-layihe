@@ -853,4 +853,44 @@ section {
 .products-column-5 .product-item {
   width: 228px;
 }
+
+.entry-category a {
+  color: #9b9bb4;
+  font-size: 13px;
+}
+
+.entry-title a {
+  color: #202435;
+  font-size: 20px;
+  font-weight: 650;
+  line-height: 0.1;
+}
+
+.entry-title {
+  margin-bottom: 8px;
+  line-height: 0.7;
+}
+
+.meta-separator {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: #71778e;
+}
+
+.meta-separator span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.meta-item a {
+  color: #71778e;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.entry-comments a {
+  color: #202435;
+  font-weight: 500;
+  margin-right: 10px;
+}
 /*# sourceMappingURL=main.css.map */
