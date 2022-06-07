@@ -1082,4 +1082,28 @@ li {
 .social {
   width: 55%;
 }
+
+.footer-button .container {
+  padding: 30px 15px;
+}
+
+.site-copyright p {
+  color: #9b9bb4;
+  font-size: 12px;
+  margin-top: 7px;
+}
+
+.footer-site-menu {
+  margin-left: 60px;
+}
+
+.footer-site-menu a {
+  color: #9b9bb4;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer-site-menu li {
+  margin-left: 10px;
+}
 /*# sourceMappingURL=main.css.map */
