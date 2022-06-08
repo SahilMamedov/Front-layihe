@@ -5,7 +5,6 @@ select.addEventListener("click",function(){
 
     active.style.display="flex"
     active.style.justifyContent="center"
-    
 });
 
 close.addEventListener("click",function(){

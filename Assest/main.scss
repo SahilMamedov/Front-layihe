@@ -237,7 +237,7 @@ top: 13px;
     margin-right: 140px;
     width: 213px;
 }
-.all-categories a{
+.all-link{
     background-color: rgb(43, 190, 249);
     
     height: 50px;
@@ -980,15 +980,25 @@ li{
     display: none;
     
 }
-// .woosc-search{
-//     background-color: rgba(0, 0, 0, 0.9);
-//     display: block;
-//     height: 100%;
-//     top: 0;
-//     left: 0;
-//     width: 100%;
-//     position: fixed;
-//     z-index: 99999999;
-//     opacity: 0;
-//     visibility: hidden;
-// }
+.menu-sidebar{
+    background-color: white;
+    padding: 18px 0;
+    li{
+        height: 42px;
+        a{
+            padding: 7px 25px;
+            font-size: 13px;
+        }
+    }
+}
+.beveregas{
+    margin-left: 100px;
+}
+.dropdown-categories{
+    position: absolute;
+    width: 268px;
+    top: 63px;
+}
+.list-icon{
+    margin-right: 15px;
+}
