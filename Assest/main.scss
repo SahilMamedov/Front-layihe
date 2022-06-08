@@ -617,13 +617,79 @@ line-height: 0.8;
     position: absolute;
     right: 10px;
 }
-.heart-icon i{
-    font-size: 24px;
-    background-color: white;
-    color: #202435;
-    margin-bottom: 10px;
+// .heart-icon i{
+//     font-size: 24px;
+//     background-color: white;
+//     color: #202435;
+//     margin-bottom: 10px;
+// }
+.hover-icon li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    width: 38px;
+    font-size: 16px;
+    border-radius: 100%;
+    border: 1px solid #edeef5;
+    margin-bottom: 8px;
+    // background-color: #233a95;
+    opacity: 0;
+    
+}
+.product-btn{
+
+width: 193px;
+height: 32px;
+background-color: #233a95;
+margin-left: 25px;
+border-radius: 20px;
+position: absolute;
+display: none;
+}
+.product-wrapper:hover .product-btn {
+    display: block;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.product-btn a{
+    font-size: 12px;
+    color: white;
+    
+}
+.product-item:hover{
+    border: 1px solid #9999a5;
+    border-radius: 5px;
+}
+
+
+.product-wrapper:hover .hover-icon li {
+    
+    opacity: 1;
+    animation-name: wraper;
+    animation-duration: 0.3s;
+    &:hover {
+        i{
+            color: white;
+        }
+         background-color: #233a95;
+    }
+    @keyframes wraper {
+        from{
+        margin-right: -8px;
+    
+        }
+        to{
+            margin-right: 0px;
+        }
+
+    }
+  
+   
+}
 
 // .product-item:hover{
 //     animation-name: heart;
