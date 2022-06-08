@@ -1212,6 +1212,7 @@ li {
 .menu-sidebar {
   background-color: white;
   padding: 18px 0;
+  margin-bottom: 0;
 }
 
 .menu-sidebar li {
