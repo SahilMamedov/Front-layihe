@@ -622,8 +622,9 @@ line-height: 0.8;
     background-color: white;
     color: #202435;
     margin-bottom: 10px;
-    opacity: 0;
 }
+
+
 // .product-item:hover{
 //     animation-name: heart;
 //     @keyframes heart {
@@ -981,7 +982,6 @@ li{
     
 }
 .menu-sidebar{
-    display: none;
     background-color: white;
     padding: 18px 0;
     margin-bottom: 0;
@@ -1040,4 +1040,7 @@ li{
     right: -258px;
     top: -1px;
     width: 260px;
+}
+.hidden{
+    display: none;
 }

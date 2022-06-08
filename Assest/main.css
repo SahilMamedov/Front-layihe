@@ -775,7 +775,6 @@ a {
   background-color: white;
   color: #202435;
   margin-bottom: 10px;
-  opacity: 0;
 }
 
 .element-populated {
@@ -1210,7 +1209,6 @@ li {
 }
 
 .menu-sidebar {
-  display: none;
   background-color: white;
   padding: 18px 0;
   margin-bottom: 0;
@@ -1280,5 +1278,9 @@ li {
 
 .beverages ul li {
   height: 33px;
+}
+
+.hidden {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */

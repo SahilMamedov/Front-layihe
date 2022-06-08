@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 </head>
 <body>
     <aside id="aside">
@@ -131,13 +132,13 @@
 <div class="header-nav">
     <div class="container d-flex">
         <div class="all-categories position-relative">
-            <a class="d-flex px-3 align-items-center all-link" href="">
+            <a id="categories" class="d-flex px-3 align-items-center all-link" href="">
                 <i class="fa-solid fa-bars"></i>
                 <span>ALL CATEGORIES</span>
                 <i class="fa-solid fa-angle-down nav-icon"></i>
             </a>
             <div class="dropdown-categories border-top d-flex">
-               <ul class="menu-sidebar">
+               <ul class="menu-sidebar hidden">
                    <li class="fruist position-relative">
                        <a href="">
                         <i class="list-icon fa-solid fa-apple-whole"></i>
@@ -536,8 +537,10 @@
                         <div class="product-wrapper">
                             <div class="thumbnail-item position-relative">
                                 <div class="heart-icon ">
-                                    <i class="fa-solid fa-arrows-to-dot"></i>
-                                    <i class="fa-solid fa-heart d-block"></i> 
+    
+                            <a href=""><i class="bi bi-arrows-fullscreen"></i></a>
+                            <i class="fa-solid fa-heart d-block"></i> 
+                            
                                 </div>
                                 
                                 <div class="product-badges">
