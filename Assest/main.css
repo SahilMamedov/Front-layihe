@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 #aside {
   background-color: #233a95;
 }
@@ -209,6 +213,7 @@ a:hover {
   background-color: #f3f4f7;
   padding: 0 15px;
   border: none;
+  outline: none;
 }
 
 .basket {
@@ -1070,10 +1075,6 @@ section {
           justify-content: flex-end;
 }
 
-body {
-  height: 6500px;
-}
-
 .footer-iconboxes {
   padding: 35px 0;
   background-color: #f7f8fd;
@@ -1246,6 +1247,7 @@ li {
   height: 48px;
   background-color: #f3f4f7;
   border-radius: 5px;
+  outline: none;
 }
 
 .select-search i {
