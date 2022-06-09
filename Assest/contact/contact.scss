@@ -681,3 +681,82 @@ li{
         margin-left: 10px;
     }
 }
+
+#main{
+    .elementor-section-top{
+        margin-top: 40px;
+        margin-bottom: 10px;
+        .elementor-wrap{
+            padding: 15px;
+            .elementor-element{
+                margin-bottom: 10px;
+                .elementor-widget{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .elementor-heading-title{
+                        font-weight: 400;
+                       
+                    }
+                }
+            }
+            .elementor-text{
+                font-size: 14px;
+            }
+        }
+    }
+    .elementor-section-body{
+        .element-column{
+            padding: 15px;
+            .element-box{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 30px;
+                background-color: #f3f3f6;
+                border-radius: 5px;
+                i{
+                    font-size: 36px;
+                    margin-bottom: 20px;
+                }
+                .entry-title{
+                    font-size: 15px;
+                    color: rgb(32, 36, 53);
+                }
+                p{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .elementor-widget-wrap{
+        .contact-form{
+    margin-top: 40px;
+    padding: 90px 0;
+    display: flex;
+    justify-content: center;
+            .form-wrapper{
+                margin: 0 204px;
+                .contact-header{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding-bottom: 40px;
+                    margin-bottom: 56px;
+                    border-bottom: 1px solid rgb(217, 217, 233);
+                    h1{
+                        font-weight: 400;
+                    }
+                    p{
+                        font-size: 14px;
+                        font-weight: 400;
+                        letter-spacing: 0;
+                        line-height: 24px;
+                    }
+                }
+            }
+
+
+    }
+    }
+}
