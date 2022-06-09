@@ -1287,6 +1287,7 @@ li {
 
 .select-location-wrapper {
   padding: 30px;
+  z-index: 100;
 }
 
 .search-location {
@@ -1406,52 +1407,53 @@ li {
   position: absolute;
   width: 260px;
   top: 62px;
+  z-index: 100;
 }
 
-.list-icon {
+.dropdown-categories .list-icon {
   margin-right: 15px;
 }
 
-.fruist .menu-sidebar {
+.dropdown-categories .fruist .menu-sidebar {
   position: absolute;
   right: -260px;
   top: -18px;
   width: 260px;
 }
 
-.categories-sub-menu {
+.dropdown-categories .categories-sub-menu {
   display: none;
   height: 530px;
 }
 
-.categories-sub-menu a {
+.dropdown-categories .categories-sub-menu a {
   padding: 7px 30px;
 }
 
-.fruist:hover .categories-sub-menu {
+.dropdown-categories .fruist:hover .categories-sub-menu {
   display: block;
 }
 
-.beverages:hover .categories-sub-menu {
+.dropdown-categories .beverages:hover .categories-sub-menu {
   display: block;
 }
 
-.fruist li {
+.dropdown-categories .fruist li {
   height: 33px;
 }
 
-.beverages ul {
+.dropdown-categories .beverages ul {
   position: absolute;
   right: -258px;
   top: -1px;
   width: 260px;
 }
 
-.beverages ul li {
+.dropdown-categories .beverages ul li {
   height: 33px;
 }
 
-.hidden {
+.dropdown-categories .hidden {
   display: none;
 }
 /*# sourceMappingURL=main.css.map */
