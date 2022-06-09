@@ -237,3 +237,115 @@ li{
         right: -6px;
         top: 10px;
     }
+    .header-cart a{
+        position: relative;
+    }
+    .all-categories{
+        margin-top: 25px;
+        margin-right: 140px;
+        width: 213px;
+    }
+    .all-link{
+        background-color: rgb(43, 190, 249);
+        
+        height: 50px;
+        color: white;
+        border-radius: 30px;
+    }
+    .all-categories span{
+        margin-left: 15px;
+    }
+    .menu-menu-2{
+    margin-bottom: 0;
+    }
+    .menu-menu-2 li{
+        list-style: none;
+        //height: 60px;
+    }
+    .list{
+        padding: 0 14px;
+        color: black;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .site-menu{padding-top: 28px;
+    }
+    .menu-menu-2 a:hover{
+    
+        background-color: rgb(243, 244, 247);
+        color: rgb(43, 190, 249);
+        border-radius: 30px;
+    }
+    .menu-menu-2 li {
+    padding-bottom: 20px;
+    
+    }
+    .home{
+        position: relative;
+    }
+    .home .sub-menu a{
+        padding: 6px 34px;
+        font-size: 13px;
+        background-color:white;
+    }
+    .home .sub-menu li{
+        width: 198px;
+        height: 32px;
+        padding: 0;
+    }
+    
+    .home .sub-menu{
+        top: 60px;
+        padding: 30px 0;
+        
+    }
+    .home:hover .sub-menu {
+        display: block;
+    }
+    
+    
+    .nav-icon{
+        margin-left: 15px;
+    }
+    
+    .shop .sub-menu{
+        top: 255px;
+        width: 1952px;
+        height: 270px;
+        padding: 0 391px;
+    }
+    .shop-menu{
+        display: none;
+    }
+    .shop:hover .shop-menu{
+        display: block;
+        display: flex;
+    }
+    .sub-menu-lists{
+        padding-top: 8px;
+        padding-bottom: 30px;
+    }
+    
+    .sub-menu-lists li{
+        padding: 0;
+        height: 32px;
+        
+    }
+    .shop li a{
+        color: #3e445a;
+        font-size: 13px;
+    }
+    .shop-title{
+        color: #233a95;
+        font-size: 15px;
+    }
+    .shop li a:hover{
+    background-color: white;
+    color: rgb(43, 190, 249);
+    }
+    .text{
+        padding: 6px 34px;
+        padding-left: 0;
+    }
+}
