@@ -748,4 +748,152 @@ li a {
   font-weight: 500;
   opacity: .5;
 }
+
+.app-content h6 {
+  margin-bottom: 0;
+  font-size: .875rem;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+.app-content span {
+  color: #71778e;
+  font-weight: 400;
+  opacity: .5;
+  font-size: 12px;
+}
+
+li {
+  list-style: none;
+}
+
+.site-social {
+  margin-left: 20px;
+}
+
+.social-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #d9d9e9;
+  border-radius: 100%;
+}
+
+.call {
+  width: 45%;
+}
+
+.social {
+  width: 55%;
+}
+
+.footer-button .container {
+  padding: 30px 15px;
+}
+
+.site-copyright p {
+  color: #9b9bb4;
+  font-size: 12px;
+  margin-top: 7px;
+}
+
+.footer-site-menu {
+  margin-left: 60px;
+}
+
+.footer-site-menu a {
+  color: #9b9bb4;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer-site-menu li {
+  margin-left: 10px;
+}
+
+#main .homepage-content nav {
+  padding: 10px 0;
+}
+
+#main .homepage-content nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0;
+}
+
+#main .homepage-content nav ul li {
+  font-size: 12px;
+  color: #9b9bb4;
+}
+
+#main .homepage-content nav ul li a {
+  color: #233a95;
+}
+
+#main .homepage-content nav ul li i {
+  font-size: 10px;
+  margin: 0 10px;
+}
+
+#main .homepage-content .woocommerce {
+  margin-top: 40px;
+}
+
+#main .homepage-content .woocommerce .register h2 {
+  font-size: 16px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #d9d9e9;
+}
+
+#main .homepage-content .woocommerce .register .woocommerce-form p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+#main .homepage-content .woocommerce .register .woocommerce-form p label {
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+#main .homepage-content .woocommerce .register .woocommerce-form p input {
+  background-color: #f3f4f7;
+  padding: 0 15px;
+  height: 2.5rem;
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+}
+
+#main .homepage-content .woocommerce .register .woocommerce-form .form-text {
+  font-size: 13px;
+  display: block;
+}
+
+#main .homepage-content .woocommerce .register .woocommerce-form .form-text a {
+  color: #ed174a;
+}
+
+#main .homepage-content .woocommerce .register .woocommerce-form button {
+  background-color: #233a95;
+}
+
+#main .homepage-content .woocommerce .register .woocommerce-form .input-check {
+  width: 13px;
+  height: 13px;
+  margin-right: 6px;
+}
 /*# sourceMappingURL=register.css.map */
