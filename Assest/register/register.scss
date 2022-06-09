@@ -107,3 +107,133 @@ li{
     display: flex;
     
     }
+    .usd{
+        margin-left: 15px;
+        position: relative;
+        padding-bottom: 5px;
+        
+    }
+    a:hover{
+    text-decoration: none;
+    }
+    .sub-menu li{
+        padding: 6px 30px;
+    }
+    
+    .site-brand img{
+        display: block;
+        width: 164px;
+        height: 44px;
+    }
+    .brand-description{
+        font-size: 11px;
+        opacity: .5;
+        color: rgba(92, 86, 86, 0.863);
+    }
+    .column-center{
+        padding-left: 55px;
+        display: flex;
+    }
+    .header-location{
+        margin-right: 30px;
+    }
+    .header-location span{
+        font-size: 10px;
+        color: rgba(92, 86, 86, 0.863);
+    }
+    .current-location{
+        width: 143px;
+    }
+    .location-icon{
+        font-size: 12px;
+        position: absolute;
+        left: 155px;
+        top: 25px;
+    }
+    .header-location a{
+        border: 1px solid #d9d9e9;
+        padding: 9px 18px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        color: #233a95;
+        border-radius: 6px;
+    }
+    .header-search{
+        position: relative;
+    }
+    .header-search i{
+        position: absolute;
+        left: 480px;
+        font-size: 25px;
+        top: 20px;
+    }
+    .search-input{
+        width: 521px;
+        height: 58px;
+        border-radius: 6px;
+        background-color: rgb(243, 244, 247);
+        padding: 0 15px;
+        border: none;
+        outline: none;
+    }
+    .basket{
+        margin-left: 30px;
+    }
+    
+    .header-login{
+        width: 42px;
+        height: 42px;
+        border: 1px solid #edeef5;
+        border-radius: 100%;
+        margin-top: 5px;
+    }
+    
+    .button-icon{
+    position: relative;
+    }
+    .icon-user{
+    position: absolute;
+    left: 13px;
+    top: 13px;
+    }
+    .header-cart{
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+    }
+    .basket{
+        height: 42px;
+    }
+    .cart-price{
+        margin-right: 15px;
+        padding-top: 15px;
+    }
+    .cart-price span{
+        color: black;
+    }
+    .shop-icon{
+        height: 40px;
+        width: 40px;
+        border: 1px solid #edeef5;
+        border-radius: 100%;
+        margin-top: 10px;
+        padding-top: 7px;
+        padding-left: 10px;
+        color: rgb(234, 43, 15);
+        background-color: #fff1ee;
+    }
+    .cart-count-icon{
+        height: 17px;
+        width: 17px;
+        background-color: rgb(234, 43, 15);
+        color: white;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        position: absolute;
+        right: -6px;
+        top: 10px;
+    }
