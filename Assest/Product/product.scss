@@ -909,6 +909,61 @@ li{
                 }
                 .product_meta{
                     font-size: 12px;
+                    a{
+                        color: rgb(113, 119, 142);
+                    }
+                    span{
+                        color: rgb(155, 155, 180);
+                        margin-top: 6px;
+                    }
+                }
+                .product-social{
+                    margin-top: 40px;
+                    ul{
+                        display: flex;
+                        li{
+                            height: 34px;
+                            width: 34px;
+                            border-radius: 100%;
+                            a{
+                            height: 34px;
+                            width: 34px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            }
+                        }
+
+                        
+                        
+                        i{
+                            color: white;
+                            
+                        }
+                        .fb{
+                            background-color: rgb(59, 89, 152);
+                        }
+                        .twit{
+                            background-color: rgb(29, 161, 242);
+                            margin-left: 5px;
+                        }
+                        .pinterest{
+                            background-color: rgb(230, 0, 35);
+                            margin-left: 5px;
+                        }
+                        .linkedin{
+                            background-color: rgb(0, 119, 181);
+                            margin-left: 5px;
+                        }
+                        .reddit{
+                            background-color: rgb(255, 69, 0);
+                            margin-left: 5px;
+                        }
+                        .whatsapp{
+                            background-color: rgb(37, 211, 102);
+                            margin-left: 5px;
+                        }
+                    }
                 }
             }
         }

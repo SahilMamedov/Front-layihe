@@ -1065,4 +1065,76 @@ li {
 #main .product-content .product-detail .product_meta {
   font-size: 12px;
 }
+
+#main .product-content .product-detail .product_meta a {
+  color: #71778e;
+}
+
+#main .product-content .product-detail .product_meta span {
+  color: #9b9bb4;
+  margin-top: 6px;
+}
+
+#main .product-content .product-detail .product-social {
+  margin-top: 40px;
+}
+
+#main .product-content .product-detail .product-social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#main .product-content .product-detail .product-social ul li {
+  height: 34px;
+  width: 34px;
+  border-radius: 100%;
+}
+
+#main .product-content .product-detail .product-social ul li a {
+  height: 34px;
+  width: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main .product-content .product-detail .product-social ul i {
+  color: white;
+}
+
+#main .product-content .product-detail .product-social ul .fb {
+  background-color: #3b5998;
+}
+
+#main .product-content .product-detail .product-social ul .twit {
+  background-color: #1da1f2;
+  margin-left: 5px;
+}
+
+#main .product-content .product-detail .product-social ul .pinterest {
+  background-color: #e60023;
+  margin-left: 5px;
+}
+
+#main .product-content .product-detail .product-social ul .linkedin {
+  background-color: #0077b5;
+  margin-left: 5px;
+}
+
+#main .product-content .product-detail .product-social ul .reddit {
+  background-color: orangered;
+  margin-left: 5px;
+}
+
+#main .product-content .product-detail .product-social ul .whatsapp {
+  background-color: #25d366;
+  margin-left: 5px;
+}
 /*# sourceMappingURL=product.css.map */
