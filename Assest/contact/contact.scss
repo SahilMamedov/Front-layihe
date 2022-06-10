@@ -730,11 +730,16 @@ li{
         }
     }
     .elementor-widget-wrap{
-        background-color: white;
+        .contact{
+            border-radius: 4px;
+            border: 1px solid rgb(217, 217, 233);
+        }
+        
         .contact-form{
-    margin-top: 40px;
-    padding: 90px 0;
-            .form-wrapper{
+     
+                margin-top: 40px;
+                padding: 90px 0;
+                .form-wrapper{
                 margin: 0 204px;
                 .contact-header{
                     display: flex;
@@ -767,6 +772,7 @@ li{
             border-radius: 4px;
             background-color: rgb(243, 244, 247);
             margin-bottom: 8px;
+            outline: none;
             
         }
         label{
@@ -780,6 +786,7 @@ li{
                 height: 118px;
                 padding: 15px;
                 margin-bottom: 8px;
+                outline: none;
             }
         }
         .contact-button{

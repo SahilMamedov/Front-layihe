@@ -886,8 +886,9 @@ li {
   font-size: 13px;
 }
 
-#main .elementor-widget-wrap {
-  background-color: white;
+#main .elementor-widget-wrap .contact {
+  border-radius: 4px;
+  border: 1px solid #d9d9e9;
 }
 
 #main .elementor-widget-wrap .contact-form {
@@ -935,6 +936,7 @@ li {
   border-radius: 4px;
   background-color: #f3f4f7;
   margin-bottom: 8px;
+  outline: none;
 }
 
 #main .elementor-widget-wrap .contact-form label {
@@ -949,6 +951,7 @@ li {
   height: 118px;
   padding: 15px;
   margin-bottom: 8px;
+  outline: none;
 }
 
 #main .elementor-widget-wrap .contact-form .contact-button {
