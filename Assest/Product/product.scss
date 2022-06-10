@@ -680,3 +680,169 @@ li{
         margin-left: 10px;
     }
 }
+
+
+#main{
+
+    .homepage-content{
+        background-color: #f7f8fd;
+        .homepage-header{
+            ul{
+                margin-bottom: 0;
+            }
+            padding: 24px 0;
+            .all-natural{
+                color: rgb(155, 155, 180);
+            }
+            li{
+                font-size: 12px;
+                i{
+                    margin: 0 10px;
+                    font-size: 10px;
+                }
+                
+            }
+        }
+        .single-wrapper{
+            .product{
+                padding: 40px;
+                .product-header{
+                    margin-bottom: 30px;
+                    h1{
+                        font-size: 24px;
+                    }
+                    .product-meta{
+                        ul{
+                            display: flex;
+                            margin-bottom: 0;
+                            li{
+                               span{
+                                font-size: 12px;
+                               } 
+                            }
+                            .star-icon{
+                                i{
+                                    font-size: 10px;
+                                    color: #f7df5c;
+                                }
+                            }
+                        }
+                        .line{
+                            margin-left: 15px;
+                            border-left: 1px solid rgb(237, 238, 245);
+                            padding-left: 15px;
+                            a{
+                                color: rgb(113, 119, 142);
+                                font-weight: 600;
+                            }
+
+                        }
+
+                        }
+                    }
+                }
+                
+
+               
+            }
+    }
+
+
+
+       
+        .product-images{
+            .images-2{
+                display: none;
+            }
+            .images-3{
+                display: none;
+            }
+        }
+        .span-grey{
+            color: rgb(155, 155, 180);
+        }
+        
+        .recommend{
+            padding: 6px 12px;
+            background-color: rgb(113, 119, 142);
+            color: white;
+            border-radius: 5px;
+            line-height: 4;
+            font-size: 8px;
+            font-weight: 700;
+        }
+        .organic{
+            padding: 6px 12px;
+            background-color: rgb(229, 248, 237);
+            color: rgb(3, 142, 66);
+            border-radius: 15px;
+            line-height: 4;
+            font-size: 10px;
+            font-weight: 700;
+        }
+        .onsale{
+            padding: 2px 8px;
+            border-radius: 5px;
+            color: white;
+            font-size: 14px;
+            background-color: rgb(43, 190, 249);
+        }
+        .product-badges{
+            position: absolute;
+            top:20px;
+        }
+        .product-content{
+            .product-slider{
+                margin-bottom: 16px;
+                margin-top: 10px;
+                .slick-track{
+                   margin-left: 90px;
+                   margin-right: 100px;
+                    display: flex;
+                    li{
+                        border: 1px solid rgb(237, 238, 245);
+                        padding: 3px;
+                        margin: 0 4px;
+                        border-radius: 4px;
+                    }
+                }
+            }
+            .product-detail{
+                
+                background-color: #fff;
+                border-radius: 4px;
+                .price{
+                    margin-bottom: 15px;
+                    del{
+                        span{
+                            color: rgb(194, 194, 211);
+                            font-size: 16px;
+                        }
+                    }
+                    
+                        margin-left: 5px;
+                        
+                        
+                        span{
+                            color: rgb(213, 18, 67);
+                            font-size: 18px;
+                            font-weight: 600;
+                        }
+                    
+                    
+                }
+                .product-meta{
+                    margin-bottom: 20px;
+                }
+                .text{
+                    p{
+                        font-size: 13px;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+        
+
+}
+

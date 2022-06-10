@@ -819,6 +819,10 @@ li {
   margin-left: 10px;
 }
 
+#main {
+  background-color: #f7f8fd;
+}
+
 #main .elementor-section-top {
   margin-top: 40px;
   margin-bottom: 10px;
