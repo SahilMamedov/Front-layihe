@@ -511,3 +511,174 @@ li a{
         display: none;
     }
 }
+
+// footer 
+
+#footer{
+    margin-top: 115px;
+}
+.footer-subscribe{
+    background-color: rgb(35, 58, 149)
+}
+.subscribe-content{
+    padding: 70px 0;
+}
+.subscribe-content h6{
+    color: #e4e5ee;
+    font-weight: 300;
+}
+.entry-teaser p{
+    color: #e4e5ee;
+    opacity: .5;
+}
+.entry-teaser{
+    margin-bottom: 30px;
+}
+.subscripe-input{
+    width: 468px;
+    height: 63px;
+    padding-left: 50px;
+    padding-right: 15px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+}
+.form-fields i{
+    position: absolute;
+    top: 24px;
+    left: 20px;
+}
+.subscribe-submit{
+    position: absolute;
+    right: -18px;
+    top: 5px;
+    padding: 0 20px;
+    width: 102px;
+    height: 54px;
+    background-color: rgb(35, 58, 149);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.subscribe-image{
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-iconboxes{
+    padding: 35px 0;
+    background-color: rgb(247, 248, 253)
+}
+.iconbox-icon i {
+    font-size: 22px;
+}
+.iconbox-detail{
+    font-size: 16px;
+    font-weight: 400;
+}
+.border-left{
+    border-left: 1px solid #edeef5;
+}
+.border-top{
+    border-top: 1px solid #edeef5;
+}
+.truck{
+    margin-right: 14px;
+    i{
+        
+    font-size: 14px;
+    margin-right: 14px;
+    }
+}
+.footer-widgets{
+    background-color: rgb(247, 248, 253)
+}
+.footer-widgets .container{
+    padding: 100px 15px;
+}
+.widget-nav-menu{
+    margin-bottom: 30px;
+}
+.widget-title{
+    font-size: .9375rem;
+    color: #202435;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.menu li{
+    list-style: none;
+    margin-top: 6px;
+   a{
+    color: rgb(113, 119, 142);
+    list-style: none;
+    font-size: 13px;
+   }
+}
+.col{
+    margin-right: 70px;
+}
+.footer-contact{
+    padding: 46px 0;
+}
+.phone-detail span{
+    font-size: .6875rem;
+    color: rgb(113, 119, 142);
+    font-weight: 500;
+    opacity: .5;
+}
+.app-content h6{
+    margin-bottom: 0;
+    font-size: .875rem;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.app-content span{
+    color: rgb(113, 119, 142);
+    font-weight: 400;
+    opacity: .5;
+    font-size: 12px;
+}
+li{
+    list-style: none;
+}
+
+.site-social{
+    margin-left: 20px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border: 1px solid rgb(217, 217, 233);
+    border-radius: 100%;
+}
+.call{
+    width: 45%;
+}
+.social{
+    width: 55%;
+}
+.footer-button .container{
+    padding: 30px 15px;
+}
+.site-copyright p{
+    color: rgb(155, 155, 180);
+    font-size: 12px;
+    margin-top: 7px;
+}
+.footer-site-menu {
+    margin-left: 60px;
+    a{
+    color: #9b9bb4;
+    font-size: 12px;
+    font-weight: 400;
+    }
+    li{
+        margin-left: 10px;
+    }
+}
