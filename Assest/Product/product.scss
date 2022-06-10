@@ -1003,8 +1003,164 @@ li{
                 
             }
         }
-       
+       .product-section{
+           margin-top: 60px;
+           .product-section-header{
+               margin-bottom: 15px;
+               h4{
+                   color: rgb(32, 36, 53);
+                   font-size: 20px;
+               }
+           }
 
+       }
+
+}
+
+
+
+
+// hover
+
+.amount{
+    color: rgb(194, 194, 211);
+    font-size: 21px;
+}
+.price-amount{
+    font-size: 24px;
+    color: rgb(213, 18, 67);
+    font-weight: 500;
+}
+
+.product-available{
+    color: #00b853;
+    font-size: 11px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.product-meta{
+    margin-bottom: 10px;
+}
+.star-rating i{
+font-size: 11px;
+color: rgb(247, 223, 92);
+}
+
+.thumbnail-item{
+    padding: 20px;   
+    position: relative;
+    
+}
+
+.product-item{
+    &:hover{
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border: 1px solid  #9999a5;
+
+      
+    }
+    border:1px solid rgb(227, 228, 230);
+    width: 290px;
+    a{
+        color: rgb(32, 36, 53);
+    }
+}
+.thumbnail-item img{
+    height: 225px;
+    z-index: 10;
+    width: 252px;
+}
+
+.img-1{
+    padding: 8px;
+}
+.content-item{
+    padding: 20px;
+    padding-top: 0;
+    
+}
+.content-item a{
+
+    font-size: 14px;
+}
+.content-item h3{
+line-height: 0.8;
+}
+
+.heart-icon{
+    position: absolute;
+    right: 10px;
+}
+.product-wrapper{
+    position: relative;
+    background-color: #fff;
+}
+.hover-icon li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    width: 38px;
+    font-size: 16px;
+    border-radius: 100%;
+    border: 1px solid #edeef5;
+    margin-bottom: 8px;
+    opacity: 0;
+}
+.product-btn{
+position: absolute;
+left: -1px;
+right: 0;
+padding: 7px 1.25rem;
+z-index: 100;
+border: 1px solid #9999a5;
+border-top: none;
+background-color: white;
+width: 290px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+display: none;
+ }
+ 
+ .product-btn-group a{
+    width: 100%;
+    font-size: .75rem;
+    height: 2.125rem;
+    border-radius: 1.875rem !important;
+    color: #fff;
+    background-color: #233a95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.product-wrapper:hover .product-btn {
+    display: block;  
+}
+
+.product-wrapper:hover .hover-icon li {
+    
+    opacity: 1;
+    animation-name: wraper;
+    animation-duration: 0.5s;
+    &:hover {
+        i{
+            color: white;
+        }
+         background-color: #233a95;
+    }
+    @keyframes wraper {
+        from{
+        margin-right: -8px;
+    
+        }
+        to{
+            margin-right: 0px;
+        }
+
+    }
+  
+   
 }
 
 
