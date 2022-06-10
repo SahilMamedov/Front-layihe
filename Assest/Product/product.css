@@ -606,10 +606,6 @@ li a {
   display: none;
 }
 
-#footer {
-  margin-top: 115px;
-}
-
 .footer-subscribe {
   background-color: #233a95;
 }
@@ -820,6 +816,7 @@ li {
 }
 
 #main .homepage-content {
+  padding-bottom: 115px;
   background-color: #f7f8fd;
 }
 

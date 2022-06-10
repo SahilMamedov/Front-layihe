@@ -513,7 +513,7 @@ li a{
 // footer 
 
 #footer{
-    margin-top: 115px;
+    
 }
 .footer-subscribe{
     background-color: rgb(35, 58, 149)
@@ -683,8 +683,8 @@ li{
 
 
 #main{
-
     .homepage-content{
+        padding-bottom: 115px;
         background-color: #f7f8fd;
         .homepage-header{
             ul{
@@ -1057,8 +1057,6 @@ color: rgb(247, 223, 92);
         border-top-left-radius: 4px;
         border-top-right-radius: 4px;
         border: 1px solid  #9999a5;
-
-      
     }
     border:1px solid rgb(227, 228, 230);
     width: 290px;
