@@ -706,6 +706,7 @@ li{
         .single-wrapper{
             .product{
                 padding: 40px;
+                background-color: #fff;
                 .product-header{
                     margin-bottom: 30px;
                     h1{
@@ -808,8 +809,7 @@ li{
                 }
             }
             .product-detail{
-                
-                background-color: #fff;
+
                 border-radius: 4px;
                 .price{
                     margin-bottom: 15px;
@@ -839,6 +839,76 @@ li{
                         font-size: 13px;
                         line-height: 24px;
                     }
+                }
+                form{
+                    margin-bottom: 40px;
+                    .quantity{
+                        div{
+                            background-color: rgb(237, 238, 245);
+                            height: 44px;
+                            width: 44px;
+                            border-radius: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        input{
+                            height: 44px;
+                            width: 44px;
+                            border-radius: 100%;
+                            display: flex;
+                            justify-content: center;
+                            border: none;
+                            text-align: center;
+                        }
+                        button{
+                            margin-left: 15px;
+                            background-color: rgb(35, 58, 149);
+                            width: 160px;
+                            border-radius: 35px;
+                        }
+                    }
+                }
+                .product-actions{
+                    margin-bottom: 30px;
+                    .tinv-wrapper{
+                        border:1px solid rgb(217, 217, 233);
+                        border-radius: 25px;
+                        width: 145px;
+                        padding: 0 12px;
+                        height: 31px;
+                        display: flex;
+                        a{
+                            span{
+                                color: rgb(113, 119, 142);
+                                font-size: 12px;
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                    .compare{
+                        color: rgb(113, 119, 142);
+                        padding-top: 5px;
+                        font-size: .75rem;
+                        font-weight: 600;
+                        margin-left: 20px;
+                    }
+                }
+                .product-checklist{
+                    margin-bottom: 24px;
+                    .checklist{
+                        li{
+                            margin-top: 6px;
+                            font-size: 12px;
+                            i{
+                                color: rgb(0, 184, 83);
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+                .product_meta{
+                    font-size: 12px;
                 }
             }
         }

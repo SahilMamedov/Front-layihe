@@ -846,6 +846,7 @@ li {
 
 #main .homepage-content .single-wrapper .product {
   padding: 40px;
+  background-color: #fff;
 }
 
 #main .homepage-content .single-wrapper .product .product-header {
@@ -949,7 +950,6 @@ li {
 }
 
 #main .product-content .product-detail {
-  background-color: #fff;
   border-radius: 4px;
 }
 
@@ -976,5 +976,93 @@ li {
 #main .product-content .product-detail .text p {
   font-size: 13px;
   line-height: 24px;
+}
+
+#main .product-content .product-detail form {
+  margin-bottom: 40px;
+}
+
+#main .product-content .product-detail form .quantity div {
+  background-color: #edeef5;
+  height: 44px;
+  width: 44px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main .product-content .product-detail form .quantity input {
+  height: 44px;
+  width: 44px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  text-align: center;
+}
+
+#main .product-content .product-detail form .quantity button {
+  margin-left: 15px;
+  background-color: #233a95;
+  width: 160px;
+  border-radius: 35px;
+}
+
+#main .product-content .product-detail .product-actions {
+  margin-bottom: 30px;
+}
+
+#main .product-content .product-detail .product-actions .tinv-wrapper {
+  border: 1px solid #d9d9e9;
+  border-radius: 25px;
+  width: 145px;
+  padding: 0 12px;
+  height: 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#main .product-content .product-detail .product-actions .tinv-wrapper a span {
+  color: #71778e;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+#main .product-content .product-detail .product-actions .compare {
+  color: #71778e;
+  padding-top: 5px;
+  font-size: .75rem;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+#main .product-content .product-detail .product-checklist {
+  margin-bottom: 24px;
+}
+
+#main .product-content .product-detail .product-checklist .checklist li {
+  margin-top: 6px;
+  font-size: 12px;
+}
+
+#main .product-content .product-detail .product-checklist .checklist li i {
+  color: #00b853;
+  margin-right: 10px;
+}
+
+#main .product-content .product-detail .product_meta {
+  font-size: 12px;
 }
 /*# sourceMappingURL=product.css.map */
