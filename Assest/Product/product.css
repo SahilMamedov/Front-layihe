@@ -996,6 +996,7 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 #main .product-content .product-detail form .quantity input {
@@ -1010,6 +1011,7 @@ li {
           justify-content: center;
   border: none;
   text-align: center;
+  outline: none;
 }
 
 #main .product-content .product-detail form .quantity button {
@@ -1136,5 +1138,44 @@ li {
 #main .product-content .product-detail .product-social ul .whatsapp {
   background-color: #25d366;
   margin-left: 5px;
+}
+
+#main .product-text {
+  margin-top: 60px;
+  background-color: #fff;
+}
+
+#main .product-text ul {
+  height: 64px;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  border-bottom: 1px solid #edeef5;
+}
+
+#main .product-text ul li {
+  padding: 20px;
+}
+
+#main .product-text ul li .des {
+  color: #202435;
+}
+
+#main .product-text ul li a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #c2c2d3;
+}
+
+#main .product-text .paragraph {
+  padding: 20px 40px;
+}
+
+#main .product-text .paragraph p {
+  font-size: 15px;
+  margin-bottom: 16px;
+  line-height: 27px;
 }
 /*# sourceMappingURL=product.css.map */

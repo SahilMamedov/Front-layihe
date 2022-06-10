@@ -23,3 +23,19 @@ select.addEventListener("click",function(){
 close.addEventListener("click",function(){
     active.style.display="none";
 })
+
+
+// main js
+
+let plus  =document.querySelector(".plus");
+let minus =document.querySelector(".minus");
+let input =document.getElementById("input");
+plus.addEventListener("click",function(){
+
+    input.value++
+})
+minus.addEventListener("click",function(){
+
+    if(input.value>1)
+    input.value--
+})

@@ -851,6 +851,7 @@ li{
                             display: flex;
                             justify-content: center;
                             align-items: center;
+                            cursor: pointer;
                         }
                         input{
                             height: 44px;
@@ -860,6 +861,7 @@ li{
                             justify-content: center;
                             border: none;
                             text-align: center;
+                            outline: none;
                         }
                         button{
                             margin-left: 15px;
@@ -967,7 +969,42 @@ li{
                 }
             }
         }
-        
+        .product-text{
+            margin-top: 60px;
+            background-color: #fff;
+            ul{
+                height: 64px;
+                padding: 0 20px;
+                display: flex;
+                margin: 0;
+                border-bottom:1px solid rgb(237, 238, 245);
+                li{
+                    padding: 20px;
+                    .des{
+                        color: rgb(32, 36, 53);
+                    }
+                    a{
+                        
+                        font-weight: 600;
+                        text-decoration: none;
+                        
+                        color: rgb(194, 194, 211);
+                        
+                    }
+                }
+            }
+            .paragraph{
+                padding: 20px 40px;
+                p{
+                    font-size: 15px;
+                    margin-bottom: 16px;
+                    line-height: 27px;
+                }
+                
+            }
+        }
+       
 
 }
+
 
