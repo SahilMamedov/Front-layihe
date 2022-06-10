@@ -461,3 +461,51 @@ li a{
 .beveregas{
     margin-left: 100px;
 }
+
+// all categories 
+
+.dropdown-categories{
+    position: absolute;
+    width: 260px;
+    top: 62px;
+    z-index: 100;
+    .list-icon{
+        margin-right: 15px;
+    }
+    
+    .fruist .menu-sidebar{
+        position: absolute;
+        right: -260px;
+        top: -18px;
+        width: 260px;
+    }
+    .categories-sub-menu{
+        display: none;
+        height: 530px;
+        a{
+            padding: 7px 30px;
+            
+        }
+    }
+    .fruist:hover .categories-sub-menu {
+        display: block;
+    }
+    .beverages:hover .categories-sub-menu{
+        display: block;
+    }
+    .fruist li{
+        height: 33px;
+    }
+    .beverages ul{
+        li{
+            height: 33px;
+        }
+        position: absolute;
+        right: -258px;
+        top: -1px;
+        width: 260px;
+    }
+    .hidden{
+        display: none;
+    }
+}
