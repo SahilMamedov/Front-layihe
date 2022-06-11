@@ -976,8 +976,39 @@ li {
   font-weight: 400;
 }
 
-#main .homepage-content .content-wrapper .content-primary .before-shop.loop {
+#main .homepage-content .content-wrapper .content-primary .before-shop-loop {
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 20px;
+  background-color: #f7f8fd;
+  border-radius: 4px;
   padding: 0 30px;
+}
+
+#main .homepage-content .content-wrapper .content-primary .before-shop-loop .shop-view a {
+  margin-right: 12px;
+}
+
+#main .homepage-content .content-wrapper .content-primary .before-shop-loop .shop-view a i {
+  color: #c2c2d3;
+}
+
+#main .homepage-content .content-wrapper .content-primary .before-shop-loop .shop-view a i:hover {
+  color: black;
+}
+
+#main .homepage-content .content-wrapper .content-primary .before-shop-loop span {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+#main .homepage-content .content-wrapper .content-primary .before-shop-loop span i {
+  margin-left: 10px;
+  font-size: 10px;
 }
 /*# sourceMappingURL=shop.css.map */

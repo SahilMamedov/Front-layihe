@@ -829,9 +829,37 @@ li{
                         
                     
                 }
-                .before-shop.loop{
+                .before-shop-loop{
+                    height: 56px;
+                    display: flex;
+                    align-items: center;
                     margin-bottom: 20px;
+                    background-color: rgb(247, 248, 253);
+                    border-radius: 4px;
                     padding: 0 30px;
+                    .shop-view{
+                        
+                        a{
+                            margin-right: 12px;
+                            i{
+                                color: rgb(194, 194, 211);
+                                &:hover{
+                                    color: black;
+                                }
+                            }
+                        }
+                        
+                    }
+                   
+                    span{
+                        font-size: 13px;
+                        font-weight: 500;
+                        i{
+                            margin-left: 10px;
+                            font-size: 10px;
+                        }
+                    }
+                    
                 }
             }
         }
