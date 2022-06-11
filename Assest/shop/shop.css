@@ -975,4 +975,9 @@ li {
   color: #9b9bb4;
   font-weight: 400;
 }
+
+#main .homepage-content .content-wrapper .content-primary .before-shop.loop {
+  margin-bottom: 20px;
+  padding: 0 30px;
+}
 /*# sourceMappingURL=shop.css.map */
