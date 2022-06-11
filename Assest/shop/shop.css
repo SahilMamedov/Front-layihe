@@ -818,4 +818,82 @@ li {
 .footer-site-menu li {
   margin-left: 10px;
 }
+
+#main .homepage-content .homepage-header {
+  padding: 10px 0;
+}
+
+#main .homepage-content .homepage-header ul {
+  margin: 0;
+}
+
+#main .homepage-content .homepage-header ul li {
+  font-size: 12px;
+}
+
+#main .homepage-content .homepage-header ul li i {
+  margin: 0  10px;
+}
+
+#main .homepage-content .homepage-header ul .all-natural {
+  color: #9b9bb4;
+}
+
+#main .homepage-content .content-wrapper {
+  margin-top: 40px;
+}
+
+#main .homepage-content .content-wrapper site-sidebar {
+  padding: 0 15px;
+}
+
+#main .homepage-content .content-wrapper .product-categories h4 {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #202435;
+}
+
+#main .homepage-content .content-wrapper .product-categories .site-checkbox-lists ul {
+  margin-bottom: 0;
+}
+
+#main .homepage-content .content-wrapper .product-categories .site-checkbox-lists ul .cat-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#main .homepage-content .content-wrapper .product-categories .site-checkbox-lists ul .cat-parent i {
+  color: #636363;
+  font-size: 10px;
+}
+
+#main .homepage-content .content-wrapper .product-categories .site-checkbox-lists ul li {
+  color: #71778e;
+  margin-right: 15px;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#main .homepage-content .content-wrapper .product-categories .site-checkbox-lists ul li a {
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+#main .homepage-content .content-wrapper .product-categories .site-checkbox-lists ul li a input {
+  margin-right: 15px;
+}
+
+#main .homepage-content .content-wrapper .product-categories .site-checkbox-lists ul li a span {
+  color: #71778e;
+}
 /*# sourceMappingURL=shop.css.map */
