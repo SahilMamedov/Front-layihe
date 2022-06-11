@@ -906,6 +906,31 @@ li{
             }
         }
     }
+    #section{
+        margin-top: 60px;
+        .module-header{
+            margin-bottom: 15px;
+            h4{
+                font-size: 20px;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+        }
+        .products{
+            border:1px solid rgb(227, 228, 230);
+            border-radius: 4px;
+            .product-item{
+                width: 290px;
+            }
+            .thumbnail-item img{
+                height: 225px;
+                width: 252px;
+            }
+            .product-btn{
+                width: 290px;
+            }
+        }
+    }
 }
 
 

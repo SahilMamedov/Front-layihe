@@ -1076,6 +1076,38 @@ li {
   padding-bottom: 10px;
 }
 
+#main #section {
+  margin-top: 60px;
+}
+
+#main #section .module-header {
+  margin-bottom: 15px;
+}
+
+#main #section .module-header h4 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#main #section .products {
+  border: 1px solid #e3e4e6;
+  border-radius: 4px;
+}
+
+#main #section .products .product-item {
+  width: 290px;
+}
+
+#main #section .products .thumbnail-item img {
+  height: 225px;
+  width: 252px;
+}
+
+#main #section .products .product-btn {
+  width: 290px;
+}
+
 .recommend {
   padding: 6px 12px;
   background-color: #71778e;
