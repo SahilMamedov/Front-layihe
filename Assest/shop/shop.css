@@ -843,6 +843,49 @@ li {
   margin-top: 40px;
 }
 
+#main .homepage-content .content-wrapper .pagination {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+}
+
+#main .homepage-content .content-wrapper .pagination .page-numbers {
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#main .homepage-content .content-wrapper .pagination .page-numbers .one {
+  background-color: #2bbef9;
+  color: white;
+}
+
+#main .homepage-content .content-wrapper .pagination .page-numbers li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 36px;
+  width: 36px;
+  border-radius: 100%;
+}
+
+#main .homepage-content .content-wrapper .pagination .page-numbers li:hover {
+  background-color: #f3f3f6;
+  cursor: pointer;
+}
+
+#main .homepage-content .content-wrapper .pagination .page-numbers li span {
+  font-weight: 500;
+}
+
 #main .homepage-content .content-wrapper site-sidebar {
   padding: 0 15px;
 }
@@ -976,6 +1019,14 @@ li {
   font-weight: 400;
 }
 
+#main .homepage-content .content-wrapper .content-primary .products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 #main .homepage-content .content-wrapper .content-primary .before-shop-loop {
   height: 56px;
   display: -webkit-box;
@@ -1092,7 +1143,7 @@ li {
 
 .product-item {
   border: 1px solid #e3e4e6;
-  width: 212px;
+  width: 206px;
 }
 
 .product-item:hover {
@@ -1108,7 +1159,7 @@ li {
 .thumbnail-item img {
   height: 155px;
   z-index: 10;
-  width: 173px;
+  width: 167px;
 }
 
 .img-1 {
@@ -1166,7 +1217,7 @@ li {
   border: 1px solid #9999a5;
   border-top: none;
   background-color: white;
-  width: 212px;
+  width: 206px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   display: none;

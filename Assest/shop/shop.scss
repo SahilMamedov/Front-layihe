@@ -702,7 +702,36 @@ li{
         }
         .content-wrapper{
             margin-top: 40px;
+            .pagination{
+                
+                justify-content: center;
+                margin-top: 40px;
+                .page-numbers{
+                    margin-bottom: 0;
+                    display: flex;
 
+                    .one{
+                        background-color: #2bbef9;
+                        color: white;
+                    }
+                    li{ 
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 36px;
+                        width: 36px;
+                        border-radius: 100%;
+                        &:hover{
+                            background-color: rgb(243, 243, 246);
+                            cursor: pointer;
+                        }
+                        span{
+                            font-weight: 500;
+                            
+                        }
+                    }
+                }
+            }
             site-sidebar{
                 padding: 0 15px;
                 .price-filter{
@@ -829,6 +858,10 @@ li{
                         
                     
                 }
+                .products{
+                    display: flex;
+                    flex-wrap: wrap;
+                }
                 .before-shop-loop{
                     height: 56px;
                     display: flex;
@@ -947,7 +980,7 @@ color: rgb(247, 223, 92);
         border: 1px solid  #9999a5;
     }
     border:1px solid rgb(227, 228, 230);
-    width: 212px;
+    width: 206px;
     a{
     color: rgb(32, 36, 53);
     }
@@ -955,7 +988,7 @@ color: rgb(247, 223, 92);
 .thumbnail-item img{
     height: 155px;
     z-index: 10;
-    width: 173px;
+    width: 167px;
 }
 
 .img-1{
@@ -1003,7 +1036,7 @@ z-index: 100;
 border: 1px solid #9999a5;
 border-top: none;
 background-color: white;
-width: 212px;
+width: 206px;
 border-bottom-left-radius: 5px;
 border-bottom-right-radius: 5px;
 display: none;
