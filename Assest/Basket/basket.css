@@ -1,0 +1,32 @@
+#section .basket {
+  margin-top: 40px;
+}
+
+#section .basket form {
+  width: 820px;
+}
+
+#section .basket form th {
+  padding: 12px;
+}
+
+#section .basket form .product-thumbnail {
+  width: 85px;
+}
+
+#section .basket form .product-name {
+  width: 350px;
+}
+
+#section .basket form .product-price {
+  width: 60px;
+}
+
+#section .basket form .product-quantity {
+  width: 120px;
+}
+
+#section .basket form .product-subtotal {
+  width: 70px;
+}
+/*# sourceMappingURL=basket.css.map */

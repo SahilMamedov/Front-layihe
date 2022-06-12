@@ -23,3 +23,36 @@ select.addEventListener("click",function(){
 close.addEventListener("click",function(){
     active.style.display="none";
 })
+
+let btn=document.querySelectorAll(".product-btn-group")
+
+btn.forEach(element => {
+    element.addEventListener("click",function(ev){
+        ev.preventDefault();
+        if(localStorage.getItem("basket")==null){
+            localStorage.setItem("basket",JSON.stringify([]))
+        }
+        let goodList=JSON.parse(localStorage.getItem("basket"));
+        let ProductId =this.parentElement.parentElement.parentElement.getAttribute("data-id");
+        let existProduct =goodList.find(p=>p.id==ProductId);
+        if(existProduct==undefined) {
+            goodList.push({
+                id:ProductId,
+                name:this.parentElement.parentElement.parentElement.firstElementChild.firstElementChild.nextElementSibling.firstElementChild.firstElementChild.innerText,
+                price:this.parentElement.parentElement.parentElement.firstElementChild.firstElementChild.nextElementSibling.lastElementChild.lastElementChild.innerText,
+                imgUrl:this.parentElement.parentElement.parentElement.firstElementChild.firstElementChild.lastElementChild.getAttribute("src"),
+                count:1
+
+            })
+        }
+        else{
+            existProduct.count++;
+            
+        }
+        localStorage.setItem("basket",JSON.stringify(goodList))
+   
+    console.log(ProductId);
+    })
+});
+
+
