@@ -840,7 +840,7 @@ li {
 }
 
 #section .basket form .product-price {
-  width: 60px;
+  width: 90px;
 }
 
 #section .basket form .product-quantity {
@@ -848,6 +848,19 @@ li {
 }
 
 #section .basket form .product-subtotal {
+  width: 70px;
+}
+
+#section .basket form tbody tr {
+  padding: 12px;
+}
+
+#section .basket form tbody td {
+  padding: 12px;
+}
+
+#section .basket form .image {
+  height: 70px;
   width: 70px;
 }
 /*# sourceMappingURL=basket.css.map */

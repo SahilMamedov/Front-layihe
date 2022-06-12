@@ -3,6 +3,7 @@ let active = document.getElementById("select-location");
 let close =document.getElementById("close")
 let categories=document.getElementById("categories")
 let sidebar=document.querySelector(".menu-sidebar")
+let ProductCount=document.querySelector(".count")
 
 categories.addEventListener("click",function(ev){
     ev.preventDefault()
@@ -29,6 +30,7 @@ let btn=document.querySelectorAll(".product-btn-group")
 btn.forEach(element => {
     element.addEventListener("click",function(ev){
         ev.preventDefault();
+
         if(localStorage.getItem("basket")==null){
             localStorage.setItem("basket",JSON.stringify([]))
         }
@@ -40,9 +42,9 @@ btn.forEach(element => {
                 id:ProductId,
                 name:this.parentElement.parentElement.parentElement.firstElementChild.firstElementChild.nextElementSibling.firstElementChild.firstElementChild.innerText,
                 price:this.parentElement.parentElement.parentElement.firstElementChild.firstElementChild.nextElementSibling.lastElementChild.lastElementChild.innerText,
-                imgUrl:this.parentElement.parentElement.parentElement.firstElementChild.firstElementChild.lastElementChild.getAttribute("src"),
+                imgUrl:this.parentElement.parentElement.parentElement.firstElementChild.firstElementChild.lastElementChild.firstElementChild.getAttribute("src"),
                 count:1
-
+                
             })
         }
         else{
@@ -52,7 +54,16 @@ btn.forEach(element => {
         localStorage.setItem("basket",JSON.stringify(goodList))
    
     console.log(ProductId);
+    
+    writeProductCount();
     })
+    
 });
-
+function writeProductCount(){
+    if(localStorage.getItem("basket")!=null){
+        let goodList=JSON.parse(localStorage.getItem("basket"))
+    ProductCount.innerText=goodList.length;
+    }
+}
+writeProductCount();
 

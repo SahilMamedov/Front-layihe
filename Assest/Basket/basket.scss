@@ -688,6 +688,7 @@ li{
 
 #section{
 .basket{
+
     margin-top: 40px;
     form{
         width: 820px;
@@ -702,7 +703,7 @@ li{
             width: 350px;
         }
         .product-price{
-            width: 60px;
+            width: 90px;
         }
         .product-quantity{
             width: 120px;
@@ -711,6 +712,18 @@ li{
             width: 70px;
         }
 
+        tbody{
+            tr{
+                padding: 12px;
+            }
+            td{
+                padding: 12px;
+            }
+        }
+    .image{
+        height: 70px;
+        width: 70px;
+    }
 
 
     }
