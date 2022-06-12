@@ -47,10 +47,40 @@ goodList.forEach(product => {
     let tdCount=document.createElement("td");
     tdCount.innerText=product.count;
 
+    let minus=document.createElement("i")
+    let plas=document.createElement("i")
+    let div1=document.createElement("div")
+    let div2=document.createElement("div")
+    minus.classList.add("fa-solid", "fa-minus")
+    
+    plas.classList.add("fa-solid", "fa-plus")
+    div1.classList.add("plasminus","minus")
+    div2.classList.add("plasminus","plas")
+    div1.append(plas)
+    div2.append(minus)
+    tdCount.style.display='flex'
+
+    tdCount.insertAdjacentElement('afterbegin',div1)
+    tdCount.insertAdjacentElement('beforeend',div2)
+   
 
     tr.append(tdImage,tdName,tdPrice,tdCount)
 
     table.lastElementChild.append(tr)
+
+
+
+    div1.addEventListener("click",function(){
+        console.log("plas");
+        let num =0;
+        product.count++;
+        num = product.count
+        tdCount.textContent = num
+    })
+    div2.addEventListener("click",function(){
+        console.log("minus");
+    tdCount.value--
+    })
 })
 
 
