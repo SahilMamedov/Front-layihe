@@ -876,6 +876,7 @@ li {
   border: none;
   width: 100%;
   border-radius: 4px;
+  outline: none;
 }
 
 #main .homepage-content .woocommerce .register .woocommerce-form .form-text {
