@@ -827,6 +827,28 @@ li {
   width: 820px;
 }
 
+#section .basket form .cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#section .basket form .cart .button {
+  padding-top: 30px;
+}
+
+#section .basket form .cart .button button {
+  padding: 10px 40px;
+  border-radius: 25px;
+  background-color: #233a95;
+}
+
 #section .basket form .icon {
   cursor: pointer;
 }

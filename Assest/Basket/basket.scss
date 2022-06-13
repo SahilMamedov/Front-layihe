@@ -694,7 +694,17 @@ li{
         width: 820px;
 
         .cart{
-            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .button{
+                padding-top: 30px;
+                button{
+                    padding: 10px 40px;
+                    border-radius: 25px;
+                    background-color: rgb(35, 58, 149)
+                }
+            }
         }
 
         .icon{

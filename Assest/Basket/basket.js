@@ -27,6 +27,7 @@ close.addEventListener("click",function(){
 
 
 //basket js
+let cart=document.querySelector(".cart-empty")
 let table=document.getElementById("table")
 if(localStorage.getItem("basket")!=null){
 let goodList=JSON.parse(localStorage.getItem("basket"))
@@ -84,7 +85,7 @@ goodList.forEach(product => {
         spanCount.textContent = num
         subTotal.innerText=+product.count*product.price
         localStorage.setItem("basket",JSON.stringify(goodList))
-        
+        check()
     })
     div2.addEventListener("click",function(){
         if(product.count>0){
@@ -100,9 +101,13 @@ goodList.forEach(product => {
             let filtergoodList= goodList.filter(product => product.count >=1);
             localStorage.setItem("basket",JSON.stringify(filtergoodList))
             writeProductCount();
+            check()
         }
         
+
     })
+  
+   
 
     let closeBtn=document.createElement("i")
 
@@ -115,7 +120,7 @@ goodList.forEach(product => {
     
     localStorage.setItem("basket",JSON.stringify(filtergoodList))
     this.parentElement.remove()
-    
+    check()
 
     writeProductCount();
     
@@ -132,7 +137,16 @@ goodList.forEach(product => {
 
 }
 
-
+function check(){
+    if(table.firstElementChild.nextElementSibling.firstElementChild==null){
+        table.style.display="none"
+        cart.style.display="block"
+    }
+    else if(table.firstElementChild.nextElementSibling.firstElementChild!==null){
+        table.style.display="block"
+        cart.style.display="none"
+    }
+}
 
 function writeProductCount(){
     if(localStorage.getItem("basket")!=null){
@@ -146,7 +160,4 @@ writeProductCount();
 //     alert("salam")
 // }
 
-
-if(table.firstElementChild.nextElementSibling.firstElementChild==null){
-    table.style.display="none"
-}
+check()
