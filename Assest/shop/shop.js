@@ -36,16 +36,19 @@ btn.forEach(element => {
         }
         let goodList=JSON.parse(localStorage.getItem("basket"));
         let ProductId =this.parentElement.parentElement.parentElement.getAttribute("data-id");
+        
         let existProduct =goodList.find(p=>p.id==ProductId);
         if(existProduct==undefined) {
+            
             goodList.push({
                 id:ProductId,
                 name:this.parentElement.parentElement.parentElement.firstElementChild.firstElementChild.nextElementSibling.firstElementChild.firstElementChild.innerText,
                 price:this.parentElement.parentElement.parentElement.firstElementChild.firstElementChild.nextElementSibling.lastElementChild.lastElementChild.innerText,
                 imgUrl:this.parentElement.parentElement.parentElement.firstElementChild.firstElementChild.lastElementChild.firstElementChild.getAttribute("src"),
-                count:1
+                count:1,
                 
             })
+            console.log(this.parentElement.parentElement.parentElement.firstElementChild.firstElementChild.nextElementSibling.lastElementChild.lastElementChild.innerText);
         }
         else{
             existProduct.count++;
@@ -53,7 +56,7 @@ btn.forEach(element => {
         }
         localStorage.setItem("basket",JSON.stringify(goodList))
    
-    console.log(ProductId);
+    
     
     writeProductCount();
     })

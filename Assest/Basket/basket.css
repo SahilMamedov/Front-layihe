@@ -827,6 +827,14 @@ li {
   width: 820px;
 }
 
+#section .basket form .icon {
+  cursor: pointer;
+}
+
+#section .basket form span {
+  margin-top: 22px;
+}
+
 #section .basket form .plasminus {
   background-color: #edeef5;
   height: 25px;
@@ -842,6 +850,7 @@ li {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 10px;
+  margin-top: 22px;
   cursor: pointer;
 }
 
