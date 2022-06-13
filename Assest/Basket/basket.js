@@ -4,6 +4,7 @@ let close =document.getElementById("close")
 let categories=document.getElementById("categories")
 let sidebar=document.querySelector(".menu-sidebar")
 let ProductCount=document.querySelector(".count")
+let sumTotal=document.getElementById("sumtotal")
 categories.addEventListener("click",function(ev){
     ev.preventDefault()
     if(sidebar.classList.contains("hidden")){
@@ -59,6 +60,7 @@ goodList.forEach(product => {
     let div2=document.createElement("div")
     let money=document.createElement("span")
     money.innerText='$'
+    
     minus.classList.add("fa-solid", "fa-minus")
     subTotal.innerText=+product.count*product.price
     plas.classList.add("fa-solid", "fa-plus")
@@ -71,13 +73,7 @@ goodList.forEach(product => {
 
     tdCount.insertAdjacentElement('afterbegin',div1)
     tdCount.insertAdjacentElement('beforeend',div2)
-    
-    
-
     table.lastElementChild.append(tr)
-    
-    
-
     div1.addEventListener("click",function(){
         let num;
         product.count++;
@@ -85,7 +81,8 @@ goodList.forEach(product => {
         spanCount.textContent = num
         subTotal.innerText=+product.count*product.price
         localStorage.setItem("basket",JSON.stringify(goodList))
-        check()
+        
+        
     })
     div2.addEventListener("click",function(){
         if(product.count>0){
@@ -94,7 +91,6 @@ goodList.forEach(product => {
             num = product.count
             spanCount.textContent = num
             subTotal.innerText=+product.count*product.price
-            
             if(product.count<1){
                 this.parentElement.parentElement.remove()    
             }
@@ -104,40 +100,33 @@ goodList.forEach(product => {
             check()
         }
         
-
+        
     })
-  
-   
-
+             
     let closeBtn=document.createElement("i")
 
     closeBtn.classList.add("fa-solid","fa-xmark","icon")
     closeBtn.setAttribute('data-id',`${product.id}`)
     closeBtn.addEventListener("click",function(event){
    
+
     let id = this.getAttribute("data-id")
     let filtergoodList= goodList.filter(product => product.id !== id);
-    
     localStorage.setItem("basket",JSON.stringify(filtergoodList))
+    goodList=JSON.parse(localStorage.getItem("basket"));
     this.parentElement.remove()
     check()
-
     writeProductCount();
     
    })
 
     tdPrice.append(money)
     tr.append(tdImage,tdName,tdPrice,tdCount,subTotal,closeBtn)
-    
-
-   
 
 })
-
-
 }
-
 function check(){
+    
     if(table.firstElementChild.nextElementSibling.firstElementChild==null){
         table.style.display="none"
         cart.style.display="block"
@@ -152,12 +141,8 @@ function writeProductCount(){
     if(localStorage.getItem("basket")!=null){
         let goodList=JSON.parse(localStorage.getItem("basket"))
     ProductCount.textContent=goodList.length;
+    
     }
 }
 writeProductCount();
-// if(table.firstChild==null){
-//     console.log(table.firstChild);
-//     alert("salam")
-// }
-
 check()

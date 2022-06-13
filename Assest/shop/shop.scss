@@ -1074,6 +1074,10 @@ display: none;
     border-radius: 1.875rem !important;
     color: #fff;
     background-color: #233a95;
+    &:hover{
+        color: white;
+        text-decoration: none;
+    }
     display: flex;
     justify-content: center;
     align-items: center;

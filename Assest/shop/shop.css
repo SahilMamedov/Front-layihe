@@ -1273,6 +1273,11 @@ li {
           align-items: center;
 }
 
+.product-btn-group a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .product-wrapper:hover .product-btn {
   display: block;
 }

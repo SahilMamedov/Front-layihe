@@ -4,6 +4,7 @@ let close =document.getElementById("close")
 let categories=document.getElementById("categories")
 let sidebar=document.querySelector(".menu-sidebar")
 let ProductCount=document.querySelector(".count")
+let sumTotal=document.getElementById("sumtotal")
 
 categories.addEventListener("click",function(ev){
     ev.preventDefault()
@@ -13,7 +14,6 @@ categories.addEventListener("click",function(ev){
     else{
         sidebar.classList.add("hidden")
     }
-    
 })
 select.addEventListener("click",function(){
 
@@ -45,28 +45,33 @@ btn.forEach(element => {
                 name:this.parentElement.parentElement.parentElement.firstElementChild.firstElementChild.nextElementSibling.firstElementChild.firstElementChild.innerText,
                 price:this.parentElement.parentElement.parentElement.firstElementChild.firstElementChild.nextElementSibling.lastElementChild.lastElementChild.innerText,
                 imgUrl:this.parentElement.parentElement.parentElement.firstElementChild.firstElementChild.lastElementChild.firstElementChild.getAttribute("src"),
+                subTotal:0,
                 count:1,
                 
             })
-            console.log(this.parentElement.parentElement.parentElement.firstElementChild.firstElementChild.nextElementSibling.lastElementChild.lastElementChild.innerText);
+            
         }
         else{
             existProduct.count++;
             
         }
+        
         localStorage.setItem("basket",JSON.stringify(goodList))
    
-    
-    
-    writeProductCount();
+        writeProductCount();
+        
     })
-    
+
 });
+
+
 function writeProductCount(){
     if(localStorage.getItem("basket")!=null){
         let goodList=JSON.parse(localStorage.getItem("basket"))
     ProductCount.innerText=goodList.length;
     }
 }
+
+
 writeProductCount();
 
